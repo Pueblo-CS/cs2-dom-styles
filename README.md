@@ -12,7 +12,10 @@ I am learning how to control CSS styles using the DOM and JavaScript
 2. Create ```script.js```
 3. Add ```console.log("Script started")``` to begining of ```script.js```
 4. Add ```<script src="script.js"></script>``` before ```</body>``` tag in ```index.html``` to link the script
-5. Go live and use the inspection tool to check that you see ***Script started*** in the console to verify your script is linked correctly to your html 
+5. Create ```styles.css```
+6. Add a ```body``` selector and set the background color and text color to whatever you like
+7. Add ```<link rel="stylesheet" href="styles.css">```  in the ```<head>``` section to link the stylesheet to ```index.html```
+8. Go live and verify that you see your CSS styles and use the inspection tool to check that you see ***Script started*** in the console to verify your script is linked correctly to your html 
 
 # Essential Notes
 - You must first use ```let element = document.getElementById("id")``` to store an element in a variable before you can set its styles (or do anything with it) in JavaScript
