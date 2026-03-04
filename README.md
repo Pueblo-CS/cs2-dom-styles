@@ -5,7 +5,7 @@ I am learning how to control CSS styles using the DOM and JavaScript
 
 # Success Criteria
 - I can define a function and call it from HTML using the ```onclick``` attribute
-- I can use ```let myVar = document.getElementById("someId")``` to store and HTML element in a JS variable
+- I can use ```let myVar = document.getElementById("someId")``` to store an HTML element in a JS variable
 - I can set style properties using ```element.style.property = "new value";```
 
 
@@ -24,7 +24,6 @@ I am learning how to control CSS styles using the DOM and JavaScript
 - Use ```element.style.property = "value";``` to set a new value for a CSS style property e.g. ```p.style.color = "red";```
 - Style values are always written as strings (should be in "")
 - CSS properties with dashes must be converted to camelCase e.g. ```background-color``` in CSS becomes ```backgroundColor``` in JavaScript
-- You can define a class in your ```styles.css``` file and then apply it to an element in JavaScript using ```element.classList.add("classname")```
 
 # Example
 In this example we will see how to change the CSS style properties of an element using JavaScript and the DOM
